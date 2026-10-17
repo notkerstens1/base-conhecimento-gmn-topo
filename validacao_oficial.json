@@ -1,0 +1,286 @@
+{
+  "schema_version": "1.0",
+  "curso": "GMN no TOPO",
+  "consultado_em": "2026-10-17",
+  "escopo": "Validação crítica de recomendações do curso com documentação oficial Google e OpenAI; não é uma auditoria de um perfil real.",
+  "metodo": "Busca e abertura de páginas oficiais. Resumos em português, sem reprodução integral. Ausência de documentação pública é classificada como não confirmada, sem concluir que um sinal nunca é usado internamente.",
+  "evidencias": [
+    {
+      "id": "OFICIAL-01",
+      "tema": "Critérios de classificação local",
+      "url": "https://support.google.com/business/answer/7091?hl=en",
+      "titulo": "Tips to improve your local ranking on Google",
+      "afirmacao": "O Google informa relevância, distância e notoriedade/popularidade como principais fatores locais. Informações completas e corretas e avaliações autênticas podem ajudar. O algoritmo completo não é divulgado; não se pode comprar nem solicitar melhor posição orgânica.",
+      "limite": "Não fornece pesos, fórmula, prazo nem garantia de primeiro lugar. Alterar metadados de uma foto não demonstra alteração da distância real entre empresa e pesquisador.",
+      "status": "confirmado_com_limites",
+      "instrucao_para_agente": "Explicar fatores e oportunidades; nunca prometer posição, prazo ou resultado causal de uma única ação."
+    },
+    {
+      "id": "OFICIAL-02",
+      "tema": "Fotos, frequência e geotag EXIF",
+      "url": "https://support.google.com/business/answer/6103862?hl=en",
+      "titulo": "Manage your Business Profile photos & videos",
+      "afirmacao": "A documentação recomenda imagens nítidas, bem iluminadas e representativas da realidade. Fotos ajudam clientes a conhecer e reconhecer o negócio. A página não estabelece quatro publicações semanais nem apresenta EXIF/geotag como requisito de ranking local.",
+      "limite": "Isso é ausência de confirmação nas fontes consultadas, não prova de que o sistema jamais lê EXIF. Não extrapolar documentação de Google Images para ranking do Perfil da Empresa.",
+      "status": "alegacao_de_ranking_nao_confirmada",
+      "instrucao_para_agente": "Tratar cadência e geotag do curso como práticas propostas pelo instrutor. Não inventar localização nem garantir que geotag faça o negócio ranquear em outro bairro."
+    },
+    {
+      "id": "OFICIAL-03",
+      "tema": "Postagens e constância",
+      "url": "https://support.google.com/business/answer/7342169?hl=en",
+      "titulo": "Create & manage posts on your Business Profile",
+      "afirmacao": "Postagens comunicam novidades, ofertas e eventos e ajudam clientes a decidir visitar a empresa. O conteúdo passa por revisão. A página oferece agendamento, inclusive recorrência, e recomenda informações completas e pertinentes.",
+      "limite": "Não estabelece uma frequência universal de publicação nem promete aumento de ranking em função da quantidade. Tipos e disponibilidade de recursos podem variar.",
+      "status": "cadencia_do_curso_nao_e_regra_oficial",
+      "instrucao_para_agente": "Escolher frequência pela necessidade do público, novidade e capacidade operacional; medir resultado sem apresentar a cadência como fator garantido."
+    },
+    {
+      "id": "OFICIAL-04",
+      "tema": "Metadados de imagem em produtos diferentes",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/image-license-metadata",
+      "titulo": "Image metadata in Google Images",
+      "afirmacao": "Google Images documenta metadados IPTC e dados estruturados para autoria, crédito e licença de imagens. Esses dados podem tornar a imagem elegível a informações adicionais de licenciamento.",
+      "limite": "A documentação trata de imagens em páginas da web e recursos do Google Images. Não confirma que coordenadas EXIF sejam um atalho de ranking no Maps ou no Perfil da Empresa.",
+      "status": "escopos_distintos",
+      "instrucao_para_agente": "Distinguir metadados de licença, dados estruturados de páginas e coordenadas EXIF; não tratar todos como o mesmo mecanismo."
+    },
+    {
+      "id": "OFICIAL-05",
+      "tema": "Avaliações sem experiência e seleção de notas positivas",
+      "url": "https://support.google.com/contributionpolicy/answer/7400114?hl=en",
+      "titulo": "Prohibited & restricted content",
+      "afirmacao": "Avaliações devem refletir experiência real e imparcial. São proibidos engajamento falso, conteúdo pago ou incentivado, conflitos de interesse e solicitação seletiva de avaliações positivas. É permitido solicitar feedback autêntico sem recompensa nem influência sobre nota ou conteúdo.",
+      "limite": "Uma nota sem texto continua sendo uma avaliação. Participar de um grupo de alunos não comprova experiência com os negócios dos colegas.",
+      "status": "conflito_com_pratica_do_curso",
+      "instrucao_para_agente": "Não recomendar mutirão de cinco estrelas entre alunos. Substituir por convite neutro a clientes reais, sem benefício, seleção por satisfação ou nota predefinida.",
+      "fonte_no_curso": {
+        "lesson_url": "https://dashboard.kiwify.com/course/6986fb7b-a01f-4f49-9342-74dce9846891?lesson=cfa0f2f8-b1eb-4e1a-8aab-83ac5b8871fe",
+        "intervalo": "00:07–00:25",
+        "observacao": "O instrutor propõe compartilhar links e atribuir cinco estrelas entre participantes. A política oficial deve prevalecer nas ações do agente."
+      }
+    },
+    {
+      "id": "OFICIAL-06",
+      "tema": "Avaliações incentivadas e reciprocidade",
+      "url": "https://support.google.com/contributionpolicy/answer/16597558?hl=en",
+      "titulo": "Incentivized or Biased Reviews",
+      "afirmacao": "O Google considera incentivadas as avaliações influenciadas por pagamentos, descontos, produtos, serviços ou outros benefícios; também considera conflitos pessoais ou profissionais.",
+      "limite": "Aplicar isso à troca de avaliações é uma inferência desta validação: uma avaliação oferecida em troca de outra pode representar benefício e viés. A violação já é clara quando não houve experiência real.",
+      "status": "inferencia_identificada",
+      "instrucao_para_agente": "Não organizar nem executar trocas de avaliações ou recompensas por avaliações."
+    },
+    {
+      "id": "OFICIAL-07",
+      "tema": "Nome, categorias e endereço do perfil",
+      "url": "https://support.google.com/business/answer/3038177?hl=en",
+      "titulo": "Guidelines for representing your business on Google",
+      "afirmacao": "Nome, endereço e categorias devem representar a operação real. Informações desnecessárias no nome podem resultar em suspensão. A empresa deve usar categorias específicas compatíveis com sua atividade e localização elegível; escritório virtual sem operação não é endereço elegível.",
+      "limite": "Palavras-chave não justificam inventar nome, endereço ou atividade. Há regras específicas para atendimento em área de serviço, empresas híbridas e profissionais individuais.",
+      "status": "regra_oficial",
+      "instrucao_para_agente": "Confirmar a operação real e sua elegibilidade antes de propor mudanças. Nunca acrescentar cidade ou serviço ao nome apenas para SEO."
+    },
+    {
+      "id": "OFICIAL-08",
+      "tema": "Edição e nova verificação",
+      "url": "https://support.google.com/business/answer/3039617?hl=en",
+      "titulo": "Edit your Business Profile",
+      "afirmacao": "Edições são revisadas antes de serem publicadas. Mudança de nome após verificação pode exigir nova verificação; mudança de endereço após verificação exige verificar novamente. A atualização deve manter os dados corretos.",
+      "limite": "Não sustenta a regra de que toda edição suspende o perfil, nem recomenda deixar informação incorreta por medo de editar.",
+      "status": "confirmado_com_limites",
+      "instrucao_para_agente": "Preparar comprovações e acompanhar o status ao atualizar dados reais. Distinguir edição pendente, nova verificação e suspensão."
+    },
+    {
+      "id": "OFICIAL-09",
+      "tema": "Métodos de verificação",
+      "url": "https://support.google.com/business/answer/7107242?hl=en",
+      "titulo": "Verify your business on Google",
+      "afirmacao": "Os métodos disponíveis são determinados pelo Google e dependem do negócio. O sistema pode solicitar novas informações ou verificação após mudanças. A documentação orienta seguir as opções exibidas no próprio perfil.",
+      "limite": "Não é possível prometer que um negócio receberá opção por telefone, vídeo, chamada ou correspondência. A confirmação não é um mecanismo de compra de ranking.",
+      "status": "regra_oficial",
+      "instrucao_para_agente": "Verificar as opções efetivamente disponíveis e nunca solicitar compartilhamento de código de verificação."
+    },
+    {
+      "id": "OFICIAL-10",
+      "tema": "Verificação por vídeo",
+      "url": "https://support.google.com/business/answer/14271705?hl=en",
+      "titulo": "Verify your business with a video recording",
+      "afirmacao": "O vídeo deve ser gravado ao vivo pelo fluxo móvel do perfil, contínuo, sem edição e com pelo menos 30 segundos. Deve comprovar localização, existência da operação e autorização de gestão conforme o tipo de negócio. Não deve expor documentos sensíveis nem rostos de terceiros.",
+      "limite": "Vídeo preparado e editado fora do fluxo não atende à orientação. Para negócios sem atendimento no endereço, os requisitos são diferentes. A análise pode levar até cinco dias úteis e a aprovação não é garantida.",
+      "status": "regra_oficial",
+      "instrucao_para_agente": "Criar checklist específico para loja, empresa híbrida ou área de serviço e conferir a instrução atual antes da gravação."
+    },
+    {
+      "id": "OFICIAL-11",
+      "tema": "Suspensão e recurso",
+      "url": "https://support.google.com/business/answer/4569145?hl=en",
+      "titulo": "Fix suspended or disabled profiles",
+      "afirmacao": "Antes de recorrer, corrigir inconformidades. A ferramenta informa motivo, política e possibilidade de recurso. A página atual orienta anexar documentos e contexto antes de confirmar o envio; o recurso só pode ser enviado uma vez. Documentos empresariais e contas podem apoiar a comprovação.",
+      "limite": "Não criar outro perfil para a mesma empresa. Documentos devem corresponder ao nome e endereço. Reintegração depende do Google. A antiga instrução de janela de 60 minutos ainda aparecia no resultado de busca, mas não na página atual aberta; não adotá-la como regra vigente.",
+      "status": "regra_oficial",
+      "instrucao_para_agente": "Organizar e anexar evidências antes do envio, conferir o fluxo vigente e nunca fabricar documentos nem prometer reversão."
+    },
+    {
+      "id": "OFICIAL-12",
+      "tema": "Avaliações negativas e remoção",
+      "url": "https://support.google.com/business/answer/4596773?hl=en",
+      "titulo": "Report inappropriate reviews on your Business Profile",
+      "afirmacao": "Somente avaliações que violam políticas são elegíveis à remoção. Discordar da crítica ou não gostar da nota não basta. A ferramenta de gestão permite acompanhar a decisão e, quando aplicável, enviar um recurso.",
+      "limite": "A empresa ou agência não controla a remoção. A avaliação pode permanecer publicada após análise.",
+      "status": "regra_oficial",
+      "instrucao_para_agente": "Responder profissionalmente e reportar apenas violações identificáveis, com evidências; não garantir apagar críticas legítimas."
+    },
+    {
+      "id": "OFICIAL-13",
+      "tema": "Visibilidade em respostas de IA do Google",
+      "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide",
+      "titulo": "Optimizing your website for generative AI features on Google Search",
+      "afirmacao": "As práticas de SEO e conteúdo útil continuam relevantes. Dados corretos no Perfil da Empresa podem ajudar na visibilidade de negócios locais em respostas de IA. O Google rejeita atalhos como menções inautênticas e não exige arquivos ou marcação especial para IA.",
+      "limite": "Crawl, indexação, exibição e recomendação não são garantidos. A documentação do Google não determina como o ChatGPT seleciona empresas. Guia atualizado em 2026-07-10.",
+      "status": "confirmado_sem_garantia",
+      "instrucao_para_agente": "Propor melhorias verificáveis em informações públicas e acompanhar visibilidade. Não prometer fazer as IAs indicarem o negócio."
+    },
+    {
+      "id": "OFICIAL-14",
+      "tema": "ChatGPT Search e rastreadores",
+      "url": "https://developers.openai.com/api/docs/bots",
+      "titulo": "Overview of OpenAI Crawlers",
+      "afirmacao": "A documentação oficial OpenAI diferencia OAI-SearchBot, usado em busca, de GPTBot, usado para possível treinamento. As configurações são independentes; permitir o rastreador de busca ajuda a tornar o site acessível para resultados do ChatGPT.",
+      "limite": "Permitir acesso não comprova recomendação, autoridade comercial, preferência ou posição garantida. Treinamento e recuperação para busca são processos distintos.",
+      "status": "elegibilidade_nao_e_recomendacao",
+      "instrucao_para_agente": "Separar acesso técnico de seleção editorial/algorítmica; não afirmar que publicar conteúdo ou liberar GPTBot fará o ChatGPT recomendar a empresa."
+    },
+    {
+      "id": "OFICIAL-15",
+      "tema": "Medição e ferramentas de terceiros",
+      "url": "https://support.google.com/business/answer/9918094?hl=en",
+      "titulo": "Understand your Business Profile performance & insights",
+      "afirmacao": "O painel oficial mede interações como visualizações, termos de busca, cliques no site e cliques para ligar. A disponibilidade varia. O relatório pode incluir resultados orgânicos e Google Ads; cliques no botão de telefone são a métrica descrita como chamadas.",
+      "limite": "Clique para ligar não prova chamada atendida ou venda. Grade de posições de uma ferramenta externa é observação daquele teste, não acesso ao algoritmo interno nem causalidade de uma otimização.",
+      "status": "medicao_com_limites",
+      "instrucao_para_agente": "Registrar período, local, consulta, ferramenta e definição de cada métrica; não converter automaticamente cliques em clientes."
+    },
+    {
+      "id": "OFICIAL-16",
+      "tema": "Promessas comerciais de agência",
+      "url": "https://support.google.com/business/answer/7163406?hl=en",
+      "titulo": "Tips for working with third parties to manage your Business Profile",
+      "afirmacao": "O Google identifica garantias de posicionamento como sinal de comportamento enganoso de terceiros. Consultores não podem prometer nem influenciar diretamente a classificação por meios especiais. Gestão pode ser cobrada, mas o Perfil da Empresa é uma ferramenta gratuita.",
+      "limite": "Experiência de agência e uso de software não representam vínculo com Google, acesso privilegiado ao algoritmo ou garantia de retorno.",
+      "status": "regra_para_oferta_comercial",
+      "instrucao_para_agente": "Descrever entregas e métricas contratuais, custos e limites de forma transparente. Evitar venda de primeira posição garantida."
+    },
+    {
+      "id": "OFICIAL-17",
+      "tema": "Search Console: cadastro de sites e redes",
+      "url": "https://support.google.com/webmasters/answer/34592?hl=en",
+      "titulo": "Add a website or platform property to Search Console",
+      "afirmacao": "É necessário comprovar propriedade ou receber acesso. A documentação atual inclui propriedades de plataformas como Instagram, TikTok, X e YouTube, com implantação gradual. Adicionar a propriedade habilita monitoramento; o cadastro em si não melhora a classificação.",
+      "limite": "A disponibilidade de propriedades de plataforma deve ser conferida na conta. Não pressupor que possuir um perfil social permita verificar o domínio inteiro da rede.",
+      "status": "recurso_atual_com_disponibilidade_variavel",
+      "instrucao_para_agente": "Identificar tipo de propriedade e autorização disponíveis, sem prometer acesso universal ou ganho de ranking."
+    },
+    {
+      "id": "OFICIAL-18",
+      "tema": "Search Console: significado do tráfego",
+      "url": "https://support.google.com/webmasters/answer/7576553?hl=en",
+      "titulo": "Performance report (Search results): Overview and basic setup",
+      "afirmacao": "O relatório de resultados de pesquisa mede cliques, impressões, CTR e posição em resultados do Google, com dimensões como consulta, página, país e dispositivo.",
+      "limite": "Não é um relatório geral de visitas ao site encaminhadas por Instagram, TikTok ou outras redes. Presença de uma conta social na busca e tráfego vindo dessa rede são fenômenos diferentes.",
+      "status": "corrige_escopo_de_medicao_do_curso",
+      "instrucao_para_agente": "Nomear a fonte e o canal medidos; não rotular cliques de busca como tráfego de referência de redes sociais."
+    },
+    {
+      "id": "OFICIAL-19",
+      "tema": "Pré-requisitos das APIs do Perfil da Empresa",
+      "url": "https://developers.google.com/my-business/content/prereqs",
+      "titulo": "Prerequisites — Google Business Profile APIs",
+      "afirmacao": "A integração requer projeto Google Cloud e solicitação de acesso às APIs. Na consulta atual, o Google exige perfil verificado e ativo por pelo menos 60 dias e site empresarial listado no perfil, além de outras etapas documentadas.",
+      "limite": "Criar um cliente OAuth no Cloud ou uma conexão no Make não aprova automaticamente o projeto. Requisitos podem mudar; página atualizada em 2026-08-28.",
+      "status": "pre_requisitos_oficiais",
+      "instrucao_para_agente": "Conferir elegibilidade e aprovação antes de prometer automação funcional. A API é do Google Business Profile, não da Meta."
+    },
+    {
+      "id": "OFICIAL-20",
+      "tema": "Acesso a APIs não equivale a acesso a qualquer perfil",
+      "url": "https://developers.google.com/my-business/content/faq",
+      "titulo": "Frequently Asked Questions — Google Business Profile APIs",
+      "afirmacao": "A aprovação de APIs está vinculada ao projeto Google Cloud. O aplicativo ainda precisa de autorização para cada Perfil da Empresa que deseja consultar ou administrar.",
+      "limite": "Nem a aprovação da API nem o login em um conector dão acesso irrestrito a perfis de terceiros. Escopos, papéis e políticas continuam aplicáveis.",
+      "status": "regra_de_autorizacao",
+      "instrucao_para_agente": "Usar apenas perfis autorizados e verificar a conta e o recurso corretos em cada operação."
+    },
+    {
+      "id": "OFICIAL-21",
+      "tema": "Serviços e descrição",
+      "url": "https://support.google.com/business/answer/9455399?hl=en",
+      "titulo": "Manage your services on your Business Profile",
+      "afirmacao": "Empresas de categorias compatíveis podem adicionar serviços sugeridos ou personalizados. Preço e descrição são detalhes que podem ser acrescentados. Um serviço pertinente à busca pode receber destaque no perfil.",
+      "limite": "A documentação não torna a descrição uma obrigação universal nem afirma que a ausência de palavras-chave impede o ranking. A disponibilidade do editor varia com a categoria.",
+      "status": "corrige_obrigatoriedade_e_causalidade",
+      "instrucao_para_agente": "Descrever apenas serviços reais, com texto útil; conferir o editor disponível sem garantir posição por preenchimento."
+    },
+    {
+      "id": "OFICIAL-22",
+      "tema": "Indicador de força do perfil",
+      "url": "https://support.google.com/business/answer/15691556?hl=en",
+      "titulo": "Manage your Profile Strength",
+      "afirmacao": "O indicador ajuda a identificar informações faltantes, manter consistência e acrescentar conteúdo. É exibido para perfis verificados e permite seguir ou pular etapas do preenchimento.",
+      "limite": "A página não declara que dispensar uma oferta comercial modifica o algoritmo de classificação nem que força total garante ranking.",
+      "status": "indicador_de_completude_sem_garantia",
+      "instrucao_para_agente": "Distinguir uma lista de preenchimento de posição nos resultados ou de imunidade a suspensão."
+    },
+    {
+      "id": "OFICIAL-23",
+      "tema": "Contribuições, perguntas e sugestões de edição",
+      "url": "https://support.google.com/contributionpolicy/answer/7422880?hl=en",
+      "titulo": "Maps user-generated content policy",
+      "afirmacao": "Contribuições, inclusive edições, devem se apoiar em informações e experiências reais. Informações falsas ou incorretas violam as políticas; sugestões de edição podem ser rejeitadas ou substituídas por outras fontes.",
+      "limite": "Não confirma aprovação por volume de contas. A existência do botão de sugerir alteração não justifica fabricar consenso para contornar uma revisão.",
+      "status": "regra_factual_e_inferencia_sinalizada",
+      "instrucao_para_agente": "Usar o canal apropriado com informação verdadeira e evidência; não promover múltiplas contas ou mutirões para simular apoio independente."
+    }
+  ],
+  "pontos_do_curso_que_exigem_rotulo": [
+    {
+      "tema": "EXIF/geotag como mecanismo para ganhar bairros",
+      "fontes_no_curso": [
+        {
+          "lesson_id": "ab5624a8-ab8d-4e4d-8571-b04fb40cf47b",
+          "intervalo": "01:53–02:25"
+        },
+        {
+          "lesson_id": "be8a2efb-56be-4812-8c0a-87055ca133ac",
+          "intervalo": "08:43–09:30"
+        }
+      ],
+      "rotulo": "Alegação do instrutor; efeito causal em ranking local não confirmado pelas fontes oficiais consultadas."
+    },
+    {
+      "tema": "Publicar fotos quatro vezes por semana",
+      "fontes_no_curso": [
+        {
+          "lesson_id": "4e884be6-418a-4b54-90b3-eaa3b2872d9d",
+          "intervalo": "04:27–04:48"
+        }
+      ],
+      "rotulo": "Cadência sugerida pelo instrutor; não é frequência mínima oficial do Google nem garantia de ranking."
+    },
+    {
+      "tema": "Mutirão de cinco estrelas entre participantes",
+      "fontes_no_curso": [
+        {
+          "lesson_id": "cfa0f2f8-b1eb-4e1a-8aab-83ac5b8871fe",
+          "intervalo": "00:07–00:25"
+        }
+      ],
+      "rotulo": "Não operacionalizar: sem experiência real, entra em conflito com a política oficial de avaliações."
+    }
+  ],
+  "regras_transversais": [
+    "Preservar a origem: diferenciar fala do instrutor, regra oficial e inferência da análise.",
+    "Ao recuperar um trecho de técnica incerta ou em conflito, recuperar também sua ressalva e a evidência oficial relacionada.",
+    "Uma descrição comercial ou um exemplo de ferramenta não comprova resultado típico nem relação causal.",
+    "Reconsultar as páginas oficiais antes de instruções operacionais sensíveis, pois recursos, políticas e prazos podem mudar."
+  ]
+}

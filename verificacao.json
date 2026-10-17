@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "date": "2026-10-17",
+  "jsonl_records": 370,
+  "sqlite_rows": 370,
+  "fts_rows": 370,
+  "unique_ids": 370,
+  "text_hashes_match": true,
+  "sqlite_text_matches_jsonl": true,
+  "fts_text_matches_search_text": true,
+  "txt_matches_jsonl": true,
+  "agent_references_resolved": true,
+  "all_catalog_notes_present": true,
+  "search_text_excludes_appended_cautions": true,
+  "sqlite_integrity": "ok",
+  "sample_query": "avaliações",
+  "sample_query_hits": 40,
+  "catalog_items": 23,
+  "material_records_semantically_verified": 9,
+  "material_lists_and_structures_preserved": true,
+  "no_media_or_originals": true,
+  "local_paths_and_private_urls_scan": "passed"
+}

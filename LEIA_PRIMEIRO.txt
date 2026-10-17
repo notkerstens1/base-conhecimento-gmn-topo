@@ -1,0 +1,35 @@
+Base de conhecimento — GMN no TOPO
+
+Sínteses em português para consulta e preparação de agentes de IA. Origem das aulas, materiais, complementos oficiais e propostas editoriais permanece identificada. O pacote não inclui os originais do curso.
+
+Cobertura: 23 itens catalogados, 22 vídeos com conteúdo falado completo analisado (11 legendas nativas e 11 transcrições automáticas), 1 área textual, 103 quadros amostrados e 370 trechos de consulta. Inclui validação externa com documentação oficial consultada em 2026-10-17.
+
+
+Repositório: [base-conhecimento-gmn-topo](https://github.com/notkerstens1/base-conhecimento-gmn-topo). Para usar no Claude, anexe `base_para_consulta.txt` e `CLAUDE.md`. O ZIP serve para baixar e guardar o pacote localmente. O catálogo navegável está em [docs/catalogo.md](docs/catalogo.md), e o manifesto registra os limites e as lacunas.
+
+Links diretos: [texto para consulta](https://raw.githubusercontent.com/notkerstens1/base-conhecimento-gmn-topo/main/base_para_consulta.txt) e [instruções para o Claude](https://github.com/notkerstens1/base-conhecimento-gmn-topo/blob/main/CLAUDE.md).
+
+Prompt para começar:
+
+```text
+Leia README.md e CLAUDE.md. Use base_para_consulta.txt como base de consulta. Responda em português, cite a fonte e o localizador de cada orientação relevante e preserve as ressalvas. Distinga conteúdo do curso, complemento oficial e proposta editorial. Quando faltar informação, identifique a lacuna. Comece apresentando o mapa dos temas e os agentes disponíveis nesta base.
+```
+
+- `base_conhecimento.json`: base estruturada, sínteses, fontes e trechos.
+- `base_para_consulta.txt`: versão textual com fonte e ressalvas junto de cada trecho.
+- `trechos_para_rag.jsonl`: registros com IDs únicos, origem, localizadores e SHA-256 do texto.
+- `busca_conhecimento.sqlite` e `consultar.py`: busca textual local sem dependências externas.
+- `procedimentos.json`, `avaliacao_agentes.json` e `agentes_e_briefing.json`: aplicação editorial e avaliação; agentes não implantados.
+- `manifesto.json`, `verificacao.json` e `checksums.sha256`: cobertura e integridade.
+
+Exemplo local: `python3 consultar.py "avaliações autênticas" --limite 5`.
+
+Recomendação: usar dados reais e perfis autorizados; avaliações exigem experiência real, sem troca, incentivo ou seleção de notas positivas. Não garantir ranking, indicação por IA ou retorno. Regras oficiais consultadas prevalecem sobre relatos do curso; verificar alterações posteriores.
+
+Revisão visual é amostrada. Textos automáticos podem conter erros de reconhecimento. Declarações do instrutor não comprovam eficácia, causalidade ou desempenho. Interfaces e procedimentos refletem as gravações, com qualificações oficiais identificadas. Materiais e modelos não recuperados permanecem nas lacunas. Não há embeddings ou agente hospedado neste pacote.
+
+Lacunas específicas:
+
+- Análise — GMN [Nome da Loja] — GMN NO TOPO: catalogado; conteúdo não recuperado.
+- Avaliação do Google Meu Negócio — GMN NO TOPO: catalogado; conteúdo não recuperado.
+- Blueprint ou template executável de automação: pré-requisitos da aula analisados; arquivo importável não recuperado nem fluxo completo executado.

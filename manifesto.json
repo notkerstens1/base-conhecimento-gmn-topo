@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0",
+  "title": "Base de conhecimento — GMN no TOPO",
+  "language": "pt-BR",
+  "created_at": "2026-10-17",
+  "course_collections": [
+    "gmn"
+  ],
+  "coverage": {
+    "catalog_items": 23,
+    "video_lessons": 22,
+    "textual_material_areas": 1,
+    "native_transcripts": 11,
+    "generated_transcripts": 11,
+    "full_spoken_text_analyzed": 22,
+    "visual_sampled_frames": 103,
+    "visual_sampled_video_lessons": 22,
+    "continuous_visual_review": false,
+    "materials_search_records": 0,
+    "attachment_search_records": 9,
+    "procedures": 10,
+    "evaluation_cases": 22,
+    "source_materials": 2,
+    "attachments": {
+      "physical_files": 2,
+      "logical_sources": 2,
+      "pdf_pages": 2,
+      "docx_paragraphs": 22
+    },
+    "agent_profiles": 3,
+    "chunks": 370,
+    "chunks_by_type": {
+      "aula": 154,
+      "qualificacao": 57,
+      "procedimento": 36,
+      "catalogo": 1,
+      "sintese_anexo": 3,
+      "catalogo_juridico_didatico": 5,
+      "qualidade_documental": 1,
+      "documentacao_oficial": 23,
+      "observacao_visual": 84,
+      "lacuna": 3,
+      "perfil_de_agente": 3
+    },
+    "indexed_text_words": 12837,
+    "full_context_text_words": 39745
+  },
+  "sources": [
+    {
+      "id": "anexo_fonte_ebook",
+      "file_name": "ebook_0aade09b-144d-4fef-be81-152f31743a31.pdf",
+      "collection": "gmn",
+      "kind": "pdf",
+      "pages": 2,
+      "sha256": "d66c1fdfa2ae26d252403aed91c7c7e9291dca78fb1464fc607d2896b101084b",
+      "text_fully_read": true,
+      "title": "ebook_0aade09b-144d-4fef-be81-152f31743a31.pdf"
+    },
+    {
+      "id": "anexo_fonte_contrato",
+      "file_name": "[CONTRATO]-----GOOGLE--MEU--NEGÓCIO.docx",
+      "collection": "gmn",
+      "kind": "docx",
+      "sha256": "f83eb4e1cb36dd348f94716a94fb4ad2366376c9510b6e51bf3170f0bacb472f",
+      "text_fully_read": true,
+      "paragraph_count": 22,
+      "paragraphs_fully_read": [
+        1,
+        22
+      ],
+      "title": "[CONTRATO]-----GOOGLE--MEU--NEGÓCIO.docx"
+    }
+  ],
+  "source_origins": {
+    "curso": "Paráfrases das aulas e materiais identificados, com timestamps, páginas, parágrafos, abas ou linhas conforme disponíveis.",
+    "complemento_oficial": "Validação externa em documentação primária, consultada em 2026-10-17; presente na base GMN e identificada por OFICIAL.",
+    "proposta_editorial": "Procedimentos aplicados, critérios de revisão, perguntas de briefing e perfis de agentes; não são modelos implantados nem promessas do curso.",
+    "observacao_visual": "Amostragem de quadros da gravação, limitada aos elementos vistos."
+  },
+  "limits": [
+    "Base derivada em paráfrases; não inclui transcrições integrais, vídeos, áudios, PDFs, DOCX, imagens originais ou prompts integrais de terceiros.",
+    "Amostras de imagens não equivalem a revisão visual contínua nem comprovam eficácia ou resultados.",
+    "22 vídeos GMN com conteúdo falado completo analisado: 11 legendas nativas e 11 transcrições automáticas.",
+    "Revisão visual esparsa de 22 vídeos GMN, totalizando 103 quadros.",
+    "Paráfrases e intervalos têm origem nas legendas nativas.",
+    "Conceitos ou procedimentos operacionais não implicam eficácia de ranking.",
+    "As fontes oficiais prevalecem nas recomendações quando há conflito.",
+    "Referências OFICIAL apontam para validacao_oficial.json, consultado em 2026-10-17.",
+    "A transcrição contém termos truncados e lapsos; correções por contexto são identificadas, sem reconstruir detalhes ausentes.",
+    "A transcrição automática pode conter lapsos; detalhes ausentes não são reconstruídos como fatos.",
+    "Trechos do instrutor e regras oficiais mantêm origens distintas.",
+    "Procedimentos inseguros ou em conflito são descritos historicamente e substituídos nas recomendações.",
+    "A revisão visual é amostrada; não equivale a assistir cada quadro.",
+    "Não reproduzir códigos de verificação, contatos pessoais, dados de clientes, formulários ou convite privado mostrados nas gravações."
+  ],
+  "known_gaps": [
+    {
+      "item": "Análise — GMN [Nome da Loja] — GMN NO TOPO",
+      "status": "catalogado; conteúdo não recuperado",
+      "source_url": "https://dashboard.kiwify.com/course/6986fb7b-a01f-4f49-9342-74dce9846891?lesson=ca756a36-f405-4958-8220-554f86010338"
+    },
+    {
+      "item": "Avaliação do Google Meu Negócio — GMN NO TOPO",
+      "status": "catalogado; conteúdo não recuperado",
+      "source_url": "https://dashboard.kiwify.com/course/6986fb7b-a01f-4f49-9342-74dce9846891?lesson=ca756a36-f405-4958-8220-554f86010338"
+    },
+    {
+      "item": "Blueprint ou template executável de automação",
+      "status": "pré-requisitos da aula analisados; arquivo importável não recuperado nem fluxo completo executado"
+    }
+  ],
+  "retrieval_rule": "Recomendação: usar dados reais e perfis autorizados; avaliações exigem experiência real, sem troca, incentivo ou seleção de notas positivas. Não garantir ranking, indicação por IA ou retorno. Regras oficiais consultadas prevalecem sobre relatos do curso; verificar alterações posteriores.",
+  "index_note": "Busca textual SQLite FTS5 e trechos JSONL com origem e ressalvas. Não há embeddings, banco vetorial hospedado ou agente implantado.",
+  "third_party_originals_included": false,
+  "private_invites_included": false,
+  "optional_inputs": {
+    "notion": "não aplicável",
+    "agent_profiles": true
+  }
+}

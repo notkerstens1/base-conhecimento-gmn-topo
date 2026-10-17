@@ -1,0 +1,425 @@
+{
+  "origin": "propostas editoriais e sínteses aplicadas; consultar fontes e limites em cada procedimento",
+  "procedures": [
+    {
+      "id": "GMN-P01",
+      "title": "Auditar e manter um perfil com informações reais",
+      "origin": "Síntese aplicada da aula de edição, ajustada por documentação oficial.",
+      "inputs": [
+        "Autorização de gestão",
+        "Dados reais do negócio",
+        "Atividades, contatos, horários e fotos atuais"
+      ],
+      "steps": [
+        "Conferir elegibilidade, unidade e modelo de atendimento.",
+        "Revisar nome real, categoria principal e adicionais compatíveis.",
+        "Revisar descrição, contatos, localização ou área de atendimento e horários reais.",
+        "Preencher apenas atributos verdadeiros e disponíveis.",
+        "Selecionar fotos representativas e nomes descritivos, sem inventar a origem geográfica.",
+        "Registrar alterações, acompanhar sua revisão e manter rotina proporcional às novidades."
+      ],
+      "completion_criteria": [
+        "Ficha coerente com a operação",
+        "Pendências e revisões registradas",
+        "Sem promessa de ranking por frequência ou EXIF"
+      ],
+      "source_refs": [
+        {
+          "lesson_url": "https://dashboard.kiwify.com/course/6986fb7b-a01f-4f49-9342-74dce9846891?lesson=4e884be6-418a-4b54-90b3-eaa3b2872d9d",
+          "start": 16.94,
+          "end": 191.52
+        },
+        {
+          "lesson_url": "https://dashboard.kiwify.com/course/6986fb7b-a01f-4f49-9342-74dce9846891?lesson=4e884be6-418a-4b54-90b3-eaa3b2872d9d",
+          "start": 223.36,
+          "end": 310.0
+        }
+      ],
+      "official_refs": [
+        "OFICIAL-01",
+        "OFICIAL-02",
+        "OFICIAL-07",
+        "OFICIAL-08"
+      ]
+    },
+    {
+      "id": "GMN-P02",
+      "title": "Produzir diagnóstico geográfico e relatório com limites explícitos",
+      "origin": "Síntese da demonstração GBP Ranker; metodologia de registro acrescentada pela análise.",
+      "inputs": [
+        "Perfil autorizado",
+        "Consulta de interesse",
+        "Região",
+        "Período e parâmetros da coleta"
+      ],
+      "steps": [
+        "Fixar termo, centro, raio, grade e profundidade para tornar testes comparáveis.",
+        "Coletar a grade e anotar ferramenta e data.",
+        "Separar posições observadas de hipóteses para explicar as diferenças.",
+        "Priorizar lacunas verificáveis de ficha e conteúdo.",
+        "Conciliar métricas do software com o painel oficial no mesmo período.",
+        "Apresentar diagnóstico e plano sem transformar projeções do software em garantias."
+      ],
+      "completion_criteria": [
+        "Parâmetros reproduzíveis",
+        "Divergências e definições de métricas explicadas",
+        "Plano com entregas concretas"
+      ],
+      "source_refs": [
+        {
+          "lesson_url": "https://dashboard.kiwify.com/course/6986fb7b-a01f-4f49-9342-74dce9846891?lesson=be8a2efb-56be-4812-8c0a-87055ca133ac",
+          "start": 27.09,
+          "end": 153.69
+        },
+        {
+          "lesson_url": "https://dashboard.kiwify.com/course/6986fb7b-a01f-4f49-9342-74dce9846891?lesson=be8a2efb-56be-4812-8c0a-87055ca133ac",
+          "start": 180.96,
+          "end": 251.88
+        },
+        {
+          "lesson_url": "https://dashboard.kiwify.com/course/6986fb7b-a01f-4f49-9342-74dce9846891?lesson=be8a2efb-56be-4812-8c0a-87055ca133ac",
+          "start": 581.16,
+          "end": 658.15
+        }
+      ],
+      "official_refs": [
+        "OFICIAL-01",
+        "OFICIAL-15",
+        "OFICIAL-16"
+      ]
+    },
+    {
+      "id": "GMN-P03",
+      "title": "Preparar verificação por vídeo com o responsável local",
+      "origin": "Aula explicativa sem caso ativo, complementada por requisitos oficiais atuais.",
+      "inputs": [
+        "Método exibido no perfil",
+        "Responsável autorizado no local",
+        "Dispositivo móvel",
+        "Tipo de operação"
+      ],
+      "steps": [
+        "Conferir a instrução exibida no perfil e os requisitos atuais para o tipo de negócio.",
+        "Planejar comprovação de localização, existência e gestão.",
+        "Excluir dados sensíveis e terceiros do enquadramento.",
+        "Gravar pelo fluxo móvel disponível, usando QR code apenas quando solicitado.",
+        "Revisar se o registro é contínuo e atende ao fluxo antes de enviá-lo.",
+        "Acompanhar a decisão e, se recusado, corrigir os itens apontados ou consultar suporte."
+      ],
+      "completion_criteria": [
+        "Vídeo enviado pelo canal correto",
+        "Requisitos documentados conferidos",
+        "Status e próximos passos registrados"
+      ],
+      "source_refs": [
+        {
+          "lesson_url": "https://dashboard.kiwify.com/course/6986fb7b-a01f-4f49-9342-74dce9846891?lesson=2259c874-1236-4092-adc0-dc80e07d2c8a",
+          "start": 8.92,
+          "end": 28.04
+        },
+        {
+          "lesson_url": "https://dashboard.kiwify.com/course/6986fb7b-a01f-4f49-9342-74dce9846891?lesson=2259c874-1236-4092-adc0-dc80e07d2c8a",
+          "start": 37.52,
+          "end": 132.97
+        }
+      ],
+      "official_refs": [
+        "OFICIAL-09",
+        "OFICIAL-10"
+      ]
+    },
+    {
+      "id": "GMN-P04",
+      "title": "Preparar automação de publicação com autorização e teste controlado",
+      "origin": "Pré-requisitos demonstrados na aula; teste controlado e proteção de segredos são recomendações da síntese.",
+      "inputs": [
+        "Conta e perfis autorizados",
+        "Projeto Cloud elegível",
+        "Conector Make",
+        "Fluxo original acessível e legível"
+      ],
+      "steps": [
+        "Confirmar conta de gestão e perfis permitidos.",
+        "Conferir os pré-requisitos atuais de acesso às APIs GBP.",
+        "Preparar projeto, OAuth e conexão conforme documentação vigente; guardar segredos com proteção.",
+        "Solicitar acesso com descrição verdadeira do uso e consentimento.",
+        "Após aprovação, inspecionar o fluxo, formatos de mídia, destinos e possíveis duplicações.",
+        "Executar uma amostra em perfil autorizado, conferir a publicação e só então planejar recorrência."
+      ],
+      "completion_criteria": [
+        "API e conexão aprovadas",
+        "Fluxo inspecionado",
+        "Amostra verificada no destino",
+        "Custos e limites atuais conhecidos"
+      ],
+      "limitations": [
+        "A transcrição não fornece o blueprint completo nem prova teste de ponta a ponta.",
+        "Não reconstruir URLs OAuth, escopos ou campos ausentes por suposição."
+      ],
+      "source_refs": [
+        {
+          "lesson_url": "https://dashboard.kiwify.com/course/6986fb7b-a01f-4f49-9342-74dce9846891?lesson=5d5c463a-08c2-441a-a54f-02a46a475488",
+          "start": 50.6,
+          "end": 88.54
+        },
+        {
+          "lesson_url": "https://dashboard.kiwify.com/course/6986fb7b-a01f-4f49-9342-74dce9846891?lesson=5d5c463a-08c2-441a-a54f-02a46a475488",
+          "start": 106.84,
+          "end": 258.88
+        },
+        {
+          "lesson_url": "https://dashboard.kiwify.com/course/6986fb7b-a01f-4f49-9342-74dce9846891?lesson=5d5c463a-08c2-441a-a54f-02a46a475488",
+          "start": 263.74,
+          "end": 448.39
+        }
+      ],
+      "official_refs": [
+        "OFICIAL-19",
+        "OFICIAL-20"
+      ]
+    },
+    {
+      "id": "GMN-P05",
+      "title": "Organizar presença pública e medir busca sem prometer indicação por IA",
+      "origin": "Síntese de NAP, Bing e Search Console; atribuição e medição corrigidas pela validação oficial.",
+      "inputs": [
+        "Nome, endereço e telefone reais",
+        "Canais públicos sob gestão",
+        "Sites ou contas com acesso comprovável"
+      ],
+      "steps": [
+        "Comparar dados públicos do negócio e corrigir divergências legítimas.",
+        "Revisar e importar a listagem no Bing quando o fluxo estiver disponível e autorizado.",
+        "Escolher propriedades compatíveis no Search Console e comprovar acesso.",
+        "Medir consultas, impressões e cliques do canal de busca correspondente.",
+        "Registrar menções ou contatos atribuídos à IA por evidência, sem atribuir causalidade ao cadastro.",
+        "Usar achados para melhorar informações e conteúdo útil."
+      ],
+      "completion_criteria": [
+        "Dados consistentes",
+        "Acessos verificados",
+        "Definição do canal em cada métrica",
+        "Sem promessa de recomendação ou treinamento automático"
+      ],
+      "source_refs": [
+        {
+          "lesson_url": "https://dashboard.kiwify.com/course/6986fb7b-a01f-4f49-9342-74dce9846891?lesson=878c2210-0ffc-485f-9530-c89a4359fa43",
+          "start": 18.86,
+          "end": 46.16
+        },
+        {
+          "lesson_url": "https://dashboard.kiwify.com/course/6986fb7b-a01f-4f49-9342-74dce9846891?lesson=bc9470dc-e703-4981-84ab-4181f4e1ddc6",
+          "start": 72.08,
+          "end": 177.33
+        }
+      ],
+      "official_refs": [
+        "OFICIAL-13",
+        "OFICIAL-14",
+        "OFICIAL-17",
+        "OFICIAL-18"
+      ]
+    },
+    {
+      "id": "GMN-P06",
+      "title": "Cadastrar somente uma operação real e acompanhar sua verificação",
+      "origin": "Aula de cadastro com correções de elegibilidade e verdade factual.",
+      "inputs": [
+        "Conta autorizada",
+        "Nome e dados reais",
+        "Tipo de atendimento e localização elegível"
+      ],
+      "steps": [
+        "Confirmar que a empresa é elegível e não criar duplicata da mesma operação.",
+        "Preencher nome, categoria, contatos e local ou área de serviço reais.",
+        "Executar o método de verificação efetivamente disponível.",
+        "Revisar serviços, horários e fotos sem acrescentar informações fictícias.",
+        "Acompanhar o status; distinguir cadastro criado de perfil aprovado."
+      ],
+      "completion_criteria": [
+        "Dados verificáveis",
+        "Sem endereço escolhido por conveniência",
+        "Pendências registradas"
+      ],
+      "source_refs": [
+        {
+          "lesson_url": "https://dashboard.kiwify.com/course/6986fb7b-a01f-4f49-9342-74dce9846891?lesson=a8f70679-10cc-4b3f-8460-db5702eafbc6",
+          "start": 63.04,
+          "end": 310.7
+        },
+        {
+          "lesson_url": "https://dashboard.kiwify.com/course/6986fb7b-a01f-4f49-9342-74dce9846891?lesson=a8f70679-10cc-4b3f-8460-db5702eafbc6",
+          "start": 311.12,
+          "end": 536.74
+        }
+      ],
+      "official_refs": [
+        "OFICIAL-07",
+        "OFICIAL-09"
+      ]
+    },
+    {
+      "id": "GMN-P07",
+      "title": "Revisar ofertas e informações de serviços sem promessa por palavras-chave",
+      "origin": "Síntese de produtos e serviços, condicionada à disponibilidade atual do editor.",
+      "inputs": [
+        "Ofertas reais",
+        "Editor disponível",
+        "Imagens e descrição verificáveis"
+      ],
+      "steps": [
+        "Distinguir produto de serviço e conferir a política e o recurso aplicáveis.",
+        "Selecionar opções compatíveis ou criar serviço personalizado verdadeiro.",
+        "Acrescentar detalhes úteis, preço e destino quando adequados.",
+        "Salvar e acompanhar revisão.",
+        "Manter itens atualizados e evitar duplicação ou atividades inexistentes."
+      ],
+      "completion_criteria": [
+        "Ofertas coerentes com o negócio",
+        "Texto útil",
+        "Disponibilidade e pendências conferidas"
+      ],
+      "source_refs": [
+        {
+          "lesson_url": "https://dashboard.kiwify.com/course/6986fb7b-a01f-4f49-9342-74dce9846891?lesson=c84dfd66-e475-467f-99e5-f876d37f2604",
+          "start": 23.24,
+          "end": 107.94
+        },
+        {
+          "lesson_url": "https://dashboard.kiwify.com/course/6986fb7b-a01f-4f49-9342-74dce9846891?lesson=c84dfd66-e475-467f-99e5-f876d37f2604",
+          "start": 125.11,
+          "end": 222.09
+        }
+      ],
+      "official_refs": [
+        "OFICIAL-07",
+        "OFICIAL-21"
+      ]
+    },
+    {
+      "id": "GMN-P08",
+      "title": "Preparar dúvidas frequentes e postagens úteis",
+      "origin": "Síntese da aula de postagens com remoção de quantidade mínima e engajamento artificial.",
+      "inputs": [
+        "Dúvidas reais",
+        "Novidade verificável",
+        "Imagem",
+        "Destino de ação"
+      ],
+      "steps": [
+        "Responder dúvidas pelo canal disponível sem simular procura de terceiros.",
+        "Escolher conteúdo atual e adequado ao cliente.",
+        "Conferir recorte, descrição e veracidade de prêmios ou resultados.",
+        "Definir CTA coerente e URL correta quando disponível.",
+        "Revisar antes de publicar e adaptar frequência às novidades."
+      ],
+      "completion_criteria": [
+        "Dúvidas respondidas com fatos",
+        "Rascunho revisado",
+        "Sem promessa por cadência ou votos"
+      ],
+      "source_refs": [
+        {
+          "lesson_url": "https://dashboard.kiwify.com/course/6986fb7b-a01f-4f49-9342-74dce9846891?lesson=076183e5-4a72-4b99-9320-82fc62952069",
+          "start": 15.76,
+          "end": 208.78
+        }
+      ],
+      "official_refs": [
+        "OFICIAL-03",
+        "OFICIAL-07",
+        "OFICIAL-23"
+      ]
+    },
+    {
+      "id": "GMN-P09",
+      "title": "Solicitar feedback livre e lidar com reclamações",
+      "origin": "Síntese corrigida das aulas de avaliações e avaliações negativas.",
+      "inputs": [
+        "Clientes com experiência real",
+        "Link ou QR code",
+        "Avaliações recebidas"
+      ],
+      "steps": [
+        "Convidar feedback sem escolher nota, elogio ou palavras específicas.",
+        "Não oferecer chocolate, desconto ou outra vantagem em troca.",
+        "Responder tanto elogios quanto reclamações de forma profissional.",
+        "Tentar corrigir problemas sem condicionar solução à alteração da nota.",
+        "Denunciar somente violações identificáveis e não presumir remoção."
+      ],
+      "completion_criteria": [
+        "Convite neutro",
+        "Ausência de incentivo ou permuta",
+        "Problemas tratados e respostas adequadas"
+      ],
+      "source_refs": [
+        {
+          "lesson_url": "https://dashboard.kiwify.com/course/6986fb7b-a01f-4f49-9342-74dce9846891?lesson=56988e8d-1212-4407-8db0-9b72b816334d",
+          "start": 28.64,
+          "end": 166.33
+        },
+        {
+          "lesson_url": "https://dashboard.kiwify.com/course/6986fb7b-a01f-4f49-9342-74dce9846891?lesson=56988e8d-1212-4407-8db0-9b72b816334d",
+          "start": 254.04,
+          "end": 324.44
+        },
+        {
+          "lesson_url": "https://dashboard.kiwify.com/course/6986fb7b-a01f-4f49-9342-74dce9846891?lesson=7fff05c5-35b1-43ed-9280-37390b8b506d",
+          "start": 13.2,
+          "end": 66.94
+        }
+      ],
+      "official_refs": [
+        "OFICIAL-05",
+        "OFICIAL-06",
+        "OFICIAL-12"
+      ]
+    },
+    {
+      "id": "GMN-P10",
+      "title": "Investigar suspensão e preparar recurso com evidências",
+      "origin": "Síntese das aulas de problemas e contestação, atualizada pelas regras oficiais.",
+      "inputs": [
+        "Motivo e política indicados",
+        "Documentação empresarial",
+        "Evidências da operação real"
+      ],
+      "steps": [
+        "Ler a decisão e identificar o que precisa ser confirmado ou corrigido.",
+        "Conferir elegibilidade da operação, inclusive endereço compartilhado quando houver.",
+        "Reunir documentos coerentes e explicar fatos e correções sem inventar informação.",
+        "Usar o fluxo vigente e revisar os anexos antes do envio.",
+        "Acompanhar a decisão e os canais disponíveis sem abrir duplicata ou fabricar apoio por múltiplas contas."
+      ],
+      "completion_criteria": [
+        "Motivo analisado",
+        "Documentos verídicos",
+        "Envio e status registrados",
+        "Sem garantia de aprovação ou prazo"
+      ],
+      "source_refs": [
+        {
+          "lesson_url": "https://dashboard.kiwify.com/course/6986fb7b-a01f-4f49-9342-74dce9846891?lesson=7fff05c5-35b1-43ed-9280-37390b8b506d",
+          "start": 66.94,
+          "end": 146.84
+        },
+        {
+          "lesson_url": "https://dashboard.kiwify.com/course/6986fb7b-a01f-4f49-9342-74dce9846891?lesson=0b4aedb0-0d23-4dde-b176-6eda1f6fec2e",
+          "start": 0.3,
+          "end": 97.52
+        },
+        {
+          "lesson_url": "https://dashboard.kiwify.com/course/6986fb7b-a01f-4f49-9342-74dce9846891?lesson=3e0322aa-7057-48a3-b2a6-b3e7ba166d88",
+          "start": 67.42,
+          "end": 139.23
+        }
+      ],
+      "official_refs": [
+        "OFICIAL-07",
+        "OFICIAL-08",
+        "OFICIAL-11",
+        "OFICIAL-23"
+      ]
+    }
+  ]
+}
